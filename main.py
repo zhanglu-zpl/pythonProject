@@ -33,7 +33,7 @@ address = "longaotian"
 tel = 1111111
 print('woshi ' + name+',woyeshi '+address )
 # 字符串拼接不适用于和其他类型拼接
-print('woshi ' + name+',woyeshi '+address + 'wode dianhua '+tel )
+# print('woshi ' + name+',woyeshi '+address + 'wode dianhua '+tel )
 # can only concatenate str (not "int") to str
 
 # 通过占位，完成拼接
@@ -45,3 +45,12 @@ print(message)
 # 精度控制  m.n  %5d，%5.2f
 
 # 字符串格式化方式 f “内容 {变量}”
+name5 = "张璐"
+nianling = 1994
+tizhong = 66.4
+print(f"我是{name5}，我出生于：{nianling}年，我今天体重是：{tizhong}")
+# 不会理会类型 不做精度控制
+
+# 对表达式进行格式化
+
+# 
