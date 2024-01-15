@@ -61,7 +61,7 @@ num = 200   #全局变量
 def tesa():
      print(num)
 def tesb():
-    # global 关键字声明a是全局变量
+    # global 关键字声明"a"是全局变量
     global num
     num = 500
     print(num)
@@ -70,15 +70,3 @@ tesa()
 tesb()
 print(num)
 
-
-# 案例： 用于记录银行卡余额
-
-# 要求输入客户姓名
-uid = input("请输入您的姓名")
-money = 5000000
-
-# 定义一个查询余额的函数
-def check_balance():
-    return print(f"您当前卡内余额为{money}")
-
-# 定义一个存款
