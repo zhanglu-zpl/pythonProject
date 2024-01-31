@@ -40,3 +40,25 @@ while index < len(t7):
 
 for index1 in  t7 :
     print(f"元组的元素有{index1}")
+
+# 元组的修改---不能修改
+# 元组中嵌套了一个列表，这个列表里的元素是可以修改的
+t8 = (1,2,["zhang",'lu'])
+t8[2][0] = "piao"
+t8[2][1] = "liang"
+print(f'元组t8的内容是{t8}')
+
+
+
+
+
+#  练习案例
+yuanzu1 = ("周杰伦",11,["football",'music'])
+# 查询年龄所在的下标
+xiabiao =  yuanzu1.index(11)
+print(f'年龄的下标是{xiabiao}')
+xingming = yuanzu1[0]
+print(f'他的姓名是{xingming}')
+yuanzu1[2].remove("football")
+yuanzu1[2].append("coding")
+print(f'现在他的元组内容是{yuanzu1}')

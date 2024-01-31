@@ -71,3 +71,4 @@ print(f'列表中总共有{quanbu}个元素')
 elist = [6,25,87,4,12,53,62,3]
 chaxun = elist.index(12)
 print(f'元素12在列表中的下标是{chaxun}')
+
